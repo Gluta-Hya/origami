@@ -1,0 +1,62 @@
+{
+ "total": 8580,
+ "ok": 8580,
+ "by_class": {
+  "single-outer|True": 1248,
+  "pair-outer|True": 1872,
+  "same-outer|True": 1248,
+  "deg8-outer|True": 312,
+  "single|True": 1040,
+  "pair|True": 1560,
+  "same|True": 1040,
+  "deg8|True": 260
+ },
+ "lean": {
+  "L": 288,
+  "R": 284
+ },
+ "fails": [],
+ "sizes": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   5,
+   4
+  ]
+ ],
+ "positions": 4
+}

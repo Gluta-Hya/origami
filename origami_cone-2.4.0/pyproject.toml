@@ -1,0 +1,19 @@
+[project]
+name = "origami-cone"
+version = "2.4.0"
+description = "Tangent-cone decomposition of rigid origami at the flat state"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Larry", email = "athaillahinandra@gmail.com"}]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+symbolic = ["sympy>=1.12"]
+
+[tool.setuptools]
+packages = ["origami_cone"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
